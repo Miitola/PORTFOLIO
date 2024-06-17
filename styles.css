@@ -43,7 +43,20 @@ h2{
     position:relative;
 }
 #navbar  li a{
-    color:#632020;
+    color:#151212;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3 ease;
+}
+
+#navbar li a:hover{
+    color:rgb(97, 97, 213);
+}
+
+
+#hero{
+    background-image: url("img/bg.png");
+    height: 90vh;
+    width: 100%;
 }
